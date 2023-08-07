@@ -1,0 +1,141 @@
+.a{
+	height: 900px;
+	width: 1500px;
+	background-color: lightgray;
+	border: 2px solid black;
+}
+.b{
+	height: 80px;
+	width: 1480px;
+	background-color: white;
+	border: 2px solid black;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.c{
+	height: 570px;
+	width: 550px;
+	background-color: white;
+	float: left;
+	border: 2px solid black;
+	margin-left: 10px;
+	
+}
+.d{
+	height: 750px;
+	width: 920px;
+	background-color: lightgray;
+	float: right;
+	margin-right: 10px;
+}
+.e{
+	height: 370px;
+	width: 920px;
+	background-color: white;
+	border: 2px solid black;
+
+}
+.f{
+	height: 380px;
+	width: 920px;
+	background-color: white;
+	border: 2px solid black;
+	margin-top: 10px;
+}
+span{
+	border: 2px solid deepskyblue;
+	font-size: 30px;
+	color: white;
+	background-color: deepskyblue;
+	text-align: justify;
+}
+select{
+	border: 2px solid red;
+	font-size: 30px;
+	color: white;
+	background-color: red;
+}
+.j{
+	border: 2px solid green;
+	font-size: 30px;
+	color: white;
+	background-color: green;
+}
+input{
+	text-align: justify;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 700px;
+	height: 20px;
+}
+label{
+	text-align: justify;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+
+}
+.k{
+	font-size: 20px;
+    border: 2px solid blue;
+	margin-left: 150px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: blue;
+	margin-top: 30px;
+}
+h4{
+	font-size: 20px;
+	padding-left: 20px;
+}
+p{
+	font-size: 15px;
+	padding-left: 20px;
+}
+.u{
+	border: 2px solid blue;
+	background-color: white;
+	color: blue;
+	font-size: 25px;
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}
+.y{
+
+	border: 2px solid blue;
+	background-color: blue;
+	color: white;
+	font-size: 25px;
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}
+i{
+	font-size: 25px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+#hd{
+	height:110px;
+	width: 110px;
+	margin-top: 7px;
+
+}
+#r{
+   color: deepskyblue;
+}
+#o{
+   color: deeppink;
+}
+#p{
+   color: blue;
+}
