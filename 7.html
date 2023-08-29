@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>7.exp</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function Palindrome(num)
+	{
+    var remainder, temp, reversedNumber = 0;
+    temp = num;
+    
+    while(num > 0)
+    {
+        remainder = num % 10;
+        num = parseInt(num / 10);
+        reversedNumber = reversedNumber*10 + remainder;
+    }
+    if(reversedNumber == temp)
+    {
+        document.write("PALINDROME NUMBER");
+    }
+    else
+    {
+        document.write("NOT A PALINDROME NUMBER");
+    }
+	}
+const s = prompt('ENTER A NUMBER: ');  
+Palindrome(s)
+	</script>
+</body>
+</html>

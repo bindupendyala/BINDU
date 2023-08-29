@@ -1,0 +1,98 @@
+.xyz{
+	border: 4px solid darkblue;
+	background-color: hotpink;
+	font-size: 30px;
+	
+
+}
+.klm{
+	text-align: center;
+	color: black;
+}
+#xyz{
+	border: 3px solid darkred;
+	background-color: orange;
+	font-size: 40px;
+	font-family: monospace;
+}
+h3{
+	color: purple;
+	font-size: 15px;
+	font-family: monospace;
+	background-color: orange;
+}
+h2{
+	color: darkred;
+	font-size: 30px;
+	font-family: cursive;
+	background-color: lightpink;
+}
+div{
+	height: 1000px;
+	width: 1000px;
+}
+.vz{
+	height: 400px;
+	width: 500px;
+	background-color: skyblue;
+	float: left;
+	font-size: 25px;
+}
+.dc{
+	height: 400px;
+	width: 500px;
+	background-color:lightgreen;
+	float: right;
+	font-size: 25px;
+}
+*{
+	
+	color: darkgreen;
+	
+
+}
+input[type]{
+	color: darkblue;
+	height: 20px;
+	width: 200px;
+	font-size: 30px;
+	border: 5px solid darkgreen;
+}
+input[type="text"]{
+	color: deeppink;
+}
+input[type="password"]{
+	color: purple;
+}
+a[href]{
+	background-color: red;
+}
+img[src]{
+	border: 4px solid purple;
+	height: 100px;
+	width: 200px;
+}
+a:link{
+	color: yellowgreen;
+}
+a:visited{
+	color: darkblue;
+}
+a:hover{
+	color: hotpink;
+	font-size: 60px;
+	font-family: cursive;
+}
+a:active{
+	color: lightgreen;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: salmon;
+}
+div:hover{
+	background-color: purple;
+	height: 400px;
+	width: 500px;
+}

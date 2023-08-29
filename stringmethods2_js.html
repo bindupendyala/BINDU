@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>string methods</title>
+</head>
+<body>
+	<center><h1>String Methods</h1>
+	<table border="2px" cellspacing="0px" cellpadding="0px" style="height: 50px; width: 200px; font-size: 20px; text-align: center;">
+		<tr>
+			<td>d</td>
+			<td>r</td>
+			<td>i</td>
+			<td>v</td>
+			<td>e</td>
+			<td>&nbsp;</td>
+			<td>r</td>
+			<td>e</td>
+			<td>a</td>
+			<td>d</td>
+			<td>y</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>-11</td>
+			<td>-10</td>
+			<td>-9</td>
+			<td>-8</td>
+			<td>-7</td>
+			<td>-6</td>
+			<td>-5</td>
+			<td>-4</td>
+			<td>-3</td>
+			<td>-2</td>
+			<td>-1</td>
+		</tr>
+	</table>
+	<script type="text/javascript">
+		function getstr(str){
+			document.write("<b>"+str+"</b><br>")
+		}
+		document.write("<br>");
+		let name = 'DRIVE READY';
+		getstr("Original Name:  "+name)
+		getstr("String Length:  "+name.length)
+		getstr("StringCharacter:  "+name.charAt(6))
+		getstr("String Index Position:  "+name.indexOf('E'))
+		getstr("String Space Index Position:  "+name.indexOf(' '))
+		getstr("String Word Starting Postion:  "+name.indexOf('IVE'))
+		getstr("Last Position of Repeated Letter:  "+name.lastIndexOf('R'))
+		document.write("<br>");
+		let n2='string methods';
+		getstr("Original Name:  "+n2)
+		getstr("Convert Into Upper:"+n2.toUpperCase())
+		getstr("Convert Into Lower:"+name.toLowerCase())
+		document.write("<br>");
+		let n3='Batch';
+		let n4='Morning';
+		getstr("Concate:  "+name.concat(n4,n3))
+		document.write("<br>");
+		let user=' BINDU ';
+		getstr("Trim:  "+user.trim())//removing spaces in front and end string
+		// console.log(user.split(""))//coverting string into array
+		let n5='Ramu&Bantu,Chintu';
+		console.log(n5.split(","));
+		console.log(n5.split("&"));//based on the teriminators string will be teriminated into array
+		document.write("<br>");
+		let n6='Klaus Mikaelson';
+		getstr(n6)
+		console.log(n6.startsWith('K'));//starts with
+		console.log(n6.startsWith('k'));
+		console.log(n6.endsWith('n'));//ending with
+		console.log(n6.endsWith('m'));
+		//slice method
+		getstr('slice:  '+n6.slice(0,5));//ss('slice'+str.slice(startpos,endpos-1));
+		getstr('slice:  '+n6.slice(6));
+		getstr('slice:  '+name.slice(-5,-4));
+		document.write("<br>");
+		//string is including word or not
+		getstr('includes of string:  '+n6.includes('laus'));
+		getstr('includes of string:  '+n6.includes('z'));
+		//charCodeAt method----finding ascii values
+		getstr('Charcode at:  '+n6.charCodeAt('k'));
+	</script>
+</center>
+</body>
+</html  

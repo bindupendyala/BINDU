@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>6.exp</title>
+</head>
+<body>
+	<script type="text/javascript">
+       const n = parseInt(prompt('Enter the no.of terms: '));
+       let a = 1, b = 2, c;
+       document.write('<b>Fibonacci Series:</b> <br>');
+        for (let i = 0; i <= n; i++) {
+         document.write(a+"<br>");
+         c = a + b;
+         a = b;
+         b = c;
+         }
+</script>
+</body>
+</html>

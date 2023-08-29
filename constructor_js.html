@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>constructor</title>
+</head>
+<body>
+	<h1>CONSTRUCTOR!...</h1>
+	<script type="text/javascript">
+		class std{
+			constructor(rno,fname,lname){
+				this.roll=rno
+				this.first=fname
+				this.last=lname
+				this.getfull=function(){
+					return this.first+" "+this.last
+				}
+			}
+		}
+	    let ob1=new std(534,'Bindu','Pendyala')
+	    console.log(ob1.roll,ob1.first,ob1.last)
+		let ob2=new std(534,'Bindu','Pendyala')
+		console.log(ob2.roll,ob2.first,ob2.last)
+		let ob3=new std(534,'Bindu','Pendyala')
+		console.log(ob3.roll,ob3.first,ob3.last)
+		let trainee=new std(534,'Bindu','Pendyala')
+		console.log(trainee.getfull())
+	</script>
+</body>
+</html>

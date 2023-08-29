@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>spread op</title>
+</head>
+<body>
+	<h2>Spread Operators</h2>
+	<p>It takes an iteration and expands or seperate each element.</p>
+	<p>Notation as(...)triple dots</p>
+	<script type="text/javascript">
+		// ....1st way.....
+		let v=[23,34,45];
+		console.log(v);
+		console.log(...v);
+		// // .....2nd way....
+		let v1=[2,4,...v];
+		console.log(v1);
+		// ....3rd way....
+		v3='BINDU MADHAVI';
+		console.log(v3);
+		console.log(...v3);
+		// ....4th way....
+		let v4=[1,2,3,4,5];
+		let v5=[8,9,10,11,12];
+		console.log(v4,v5);
+		console.log(...v4,6,7,...v5,13,14,15);
+		// ----5th way----
+		let v6=[6,2,3,4];
+		function add(a,b,c,d){
+			console.log(a*(b*c)*d);
+		}
+		//add(v6[0]*v6[1]*v7[2]*v8[3])
+		add(...v6)
+	</script>
+</body>
+</html>

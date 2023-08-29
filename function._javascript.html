@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// function test()
+		// {
+		// 	alert("testing");
+		// 	document.write("alert msg using functions");
+		// }
+		// test()
+		// var a=prompt("Scan your id here:");
+		// function scan(rollno){
+		// 	document.write(rollno);
+		// }
+		// scan(a)
+		setTimeout(function(){
+		function add(a,b)
+		{
+			document.write(a+b+"<br>");  
+		}
+		add(9,6)
+		function sub()
+		{
+			var a=15;
+			var b=5;
+			document.write(a-b+"<br>");
+		}
+		sub()
+		var x=function mult(a,b)
+		{
+			return(a*b);
+		}
+		document.write(x(4,6)+"<br>");
+		var y= function div()
+		{
+			var a=20;
+			var b=2;
+			return(a/b);
+		}
+		document.write(y()+"<br>");
+		var z=function cube(a)
+		{
+			return(a*a*a);
+		}
+		document.write(z(2)+"<br>");
+		test = (a,b)=>{
+			return(a+b)
+		}
+		document.write(test(2,5)+"<br>");
+        },2000)
+        setTimeout(t,3000)
+        function t(){
+        	document.write("enables after 3 secs")
+        }
+	</script>
+</body>
+</html>

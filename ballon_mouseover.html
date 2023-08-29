@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mouseover</title>
+	<style>
+		#a{
+			height: 600px;
+			width: 250px;
+			float: left;
+			margin-right: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div id="a">
+		<img onmouseover="ball(this)" onmouseout="bal(this)" src="images/ballon.png" id="a">
+	</div>
+	<div id="a">
+		<img onmouseover="cak(this)" onmouseout="cake(this)" src="images/cake.webp" id="a">
+	</div>
+	<div id="a">
+		<img onmouseover="candeless(this)" onmouseout="candel(this)" src="images/candel.jpeg" id="a">
+	</div>
+	<script type="text/javascript">
+		function ball(x){
+			x.src="images/ballless.webp";
+            
+		}
+		function bal(y){
+			y.src="images/ballon.png";
+		}
+		function cak(x){
+			x.src="images/cake.webp";
+            
+		}
+		function cake(y){
+			y.src="images/cakep.webp";
+		}
+		function candeless(x){
+			x.src="images/candeless.jpg";
+            
+		}
+		function candel(y){
+			y.src="images/candel.jpeg";
+		}
+	</script>
+</body>
+</html>
